@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHUHAIB AKTHAR</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<section id="home">
+
+    <header>
+        <h1 class="logo">SHUHAIB AKTHAR </h1>
+        <div class="hamburger" onclick="toggleNav()">&#9776;</div> <!-- Hamburger Icon -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Off-Canvas Menu -->
+    <div id="navMenu" class="nav-offcanvas">
+        <button class="close-btn" onclick="closeNav()">&times;</button> <!-- Close Button -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+</section>
+
+
+    <section class="hero">
+        <div class="overlay">
+            <h2>Software Engineer </h2>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/shuhaib-akthar-979b26278/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="resume-section" id="about" style="padding-top: 100px;">
+    <div class="container">
+        <div class="about-text">
+            <h1>So, who am I?</h1>
+            <p>
+                I'm a committed Software Developer with 1 year of experience in secure software development and cybersecurity. I specialize in designing stable, scalable software with a strong focus on threat mitigation, system integrity, and data security.
+
+                Proficient in Python, Java, and C++, I have hands-on experience with vulnerability scanning, penetration testing, and secure coding. I thrive in agile teams and continuously explore emerging security technologies.
+
+                <br>✨ Let’s build something secure and impactful together!
+            </p>
+            <a href="#contact" class="btn-unique">✨ Contact me</a>
+        </div>
+    </div>
+</section> -->
+<section class="resume-section" id="about" style="padding-top: 100px;">
+    <div class="container about-container">
+        <div class="about-text">
+            <h1>So, who am I?</h1>
+            <p>
+                I'm a committed Software Developer with 1 year of experience in secure software development and cybersecurity. I specialize in designing stable, scalable software with a strong focus on threat mitigation, system integrity, and data security.
+
+                Proficient in Python, Java, and C++, I have hands-on experience with vulnerability scanning, penetration testing, and secure coding. I thrive in agile teams and continuously explore emerging security technologies.
+
+                <br>✨ Let’s build something secure and impactful together!
+            </p>
+            <a href="#contact" class="btn-unique">✨ Contact me</a>
+        </div>
+        <div class="about-image">
+            <img src="akther.jpeg" alt="Shuhaib Akthar" />
+        </div>
+    </div>
+</section>
+
+<section class="resume-section" id="resume">
+    <div class="container">
+        <h2 class="section-title">Resume</h2>
+        <div class="timeline">
+
+            <!-- Education -->
+            <div class="timeline-block">
+                <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="timeline-content">
+                    <h3>Education</h3>
+
+                    <h4>B.Tech in Computer Science and Engineering</h4>
+                    <span class="date">2019 - 2023</span>
+                    <p>MDIT Kozhikode, Kerala</p>
+                    <p>CGPA: 6.5</p>
+                    <br>
+
+                    <h4>Higher Secondary - Biology Science</h4>
+                    <span class="date">2017 - 2019</span>
+                    <p>Markaz Higher Secondary School, Karanthur, Kozhikode</p>
+                    <p>Percentage: 70%</p>
+                    <br>
+
+                    <h4>High School</h4>
+                    <span class="date">Up to 2017</span>
+                    <p>Ishaath Public School, Poonoor, Kozhikode</p>
+                    <p>Percentage: 88%</p>
+                </div>
+            </div>
+
+            <!-- Internships -->
+            <div class="timeline-block">
+                <div class="timeline-icon"><i class="fas fa-user-shield"></i></div>
+                <div class="timeline-content">
+                    <h3>Internships</h3>
+
+                    <h4>Cyber Security Intern</h4>
+                    <span class="date">June 2022 - July 2022</span>
+                    <p>Introduction to Cybersecurity, Vulnerability Assessment, and SOC (Security Operations Center).</p>
+                    <br>
+
+                    <h4>Cyber Security Internship</h4>
+                    <span class="date">June 2023 - May 2024</span>
+                    <p>Hands-on training in:</p>
+                    <ul>
+                        <li>CEH (Certified Ethical Hacker)</li>
+                        <li>CSA (Certified SOC Analyst)</li>
+                        <li>VAPT (Vulnerability Assessment and Penetration Testing)</li>
+                        <li>OWASP Top 10 Security Risks</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="timeline-block">
+                <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-content">
+                    <h3>Experience</h3>
+                    <h4>Cyber Security Engineer</h4>
+                    <span class="date">2024 - 2025</span>
+                    <p>TechByHeart</p>
+                    <ul>
+                        <li>Monitored network systems using firewalls, IDS/IPS, and SIEM tools.</li>
+                        <li>Analyzed logs and incidents for threats and vulnerabilities.</li>
+                        <li>Performed reconnaissance, enumeration, and exploitation testing.</li>
+                        <li>Used tools like Metasploit, Nmap, Burp Suite, Wireshark.</li>
+                        <li>Documented risks and suggested mitigation strategies.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="timeline-block">
+                <div class="timeline-icon"><i class="fas fa-certificate"></i></div>
+                <div class="timeline-content">
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>Certified Ethical Hacker (CEH) – EC-Council</li>
+                        <li>Certified SOC Analyst (CSA) – EC-Council</li>
+                        <li>Ethical Hacker by Cisco</li>
+                        <li>CSI Certified Linux Investigator</li>
+                        <li>NSE1 – Information Security Awareness</li>
+                        <li>NSE2 – The Evolution of Cybersecurity</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="timeline-block">
+                <div class="timeline-icon"><i class="fas fa-tools"></i></div>
+                <div class="timeline-content">
+                    <h3>Skills</h3>
+                    <ul class="skills">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C/C++</li>
+                        <li>Cybersecurity</li>
+                        <li>SIEM Tools</li>
+                        <li>Penetration Testing</li>
+                        <li>Network Security</li>
+                        <li>Vulnerability Assessment</li>
+                        <li>OWASP Top 10</li>
+                        <li>Data Loss Prevention</li>
+                        <li>Forensic Analysis</li>
+                        <li>Malware Analysis</li>
+                        <li>Risk Management</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="timeline-block">
+                <div class="timeline-icon"><i class="fas fa-language"></i></div>
+                <div class="timeline-content">
+                    <h3>Languages</h3>
+                    <ul class="skills">
+                        <li>English</li>
+                        <li>Malayalam</li>
+                        <li>Hindi</li>
+                        <li>Tamil</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="timeline-block">
+                <div class="timeline-icon"><i class="fas fa-address-book"></i></div>
+                <div class="timeline-content">
+                    <h3>Contact</h3>
+                    <p><strong>Phone:</strong> <a href="tel:+971521452772">+971 52 145 2772</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:aktharshuhaib3334@gmail.com">aktharshuhaib3334@gmail.com</a></p>
+                    <p><strong>Location:</strong> Dubai, UAE</p>
+                </div>
+            </div>
+
+              <div class="download-resume">
+                    <a href="my-resume.pdf" download class="btn-download">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-section" id="contact">
+    <h2 class="contact-title">Contact <span>Me</span></h2>
+    <p class="contact-subtext">
+        I’d love to hear from you! Whether you’re interested in a collaboration, have a cybersecurity-related opportunity, or just want to connect — feel free to reach out.
+    </p>
+
+    <div class="contact-cards">
+        <div class="contact-card">
+            <img src="https://img.icons8.com/ios-filled/50/000000/marker.png" alt="address icon" />
+            <h4>ADDRESS</h4>
+            <p>Dubai, United Arab Emirates</p>
+        </div>
+
+        <div class="contact-card">
+            <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="phone icon" />
+            <h4>PHONE</h4>
+            <p><a href="tel:+971521452772">+971 52 145 2772</a></p>
+        </div>
+
+        <div class="contact-card">
+            <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" alt="email icon" />
+            <h4>EMAIL</h4>
+            <p><a href="mailto:aktharshuhaib3334@gmail.com">aktharshuhaib3334@gmail.com</a></p>
+        </div>
+    </div>
+
+    <div class="whatsapp-button">
+        <a href="https://wa.me/971521452772" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png"
+                 alt="WhatsApp" style="width: 50px; height: 50px;">
+        </a>
+    </div>
+</section>
+
+
+    <footer class="site-footer" style="padding-top: 100px; margin-top: 100px;">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h2>SHUHAIB AKTHAR</h2>
+                <p>Crafting creative digital experiences with code & design.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#home"> Home</a></li>
+                    <li><a href="#projects"> Projects</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-socials">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/shuhaib-akthar-979b26278/" target="_blank"> LinkedIn</a></li>
+                    <li><a href="https://github.com/yourprofile" target="_blank"> GitHub</a></li>
+                    <li><a href="mailto:aktharshuhaib3334@gmail.com"> Email</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 sneha ss. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+ <script>
+        // Function to toggle the navigation menu
+        function toggleNav() {
+            const nav = document.getElementById("navMenu");
+            nav.classList.toggle("open");
+        }
+
+        // Function to close the navigation menu (triggered by the close button)
+        function closeNav() {
+            const nav = document.getElementById("navMenu");
+            nav.classList.remove("open");
+        }
+
+        // Close the nav if clicked outside (only for mobile)
+        document.addEventListener("click", function (event) {
+            const nav = document.getElementById("navMenu");
+            const hamburger = document.querySelector(".hamburger");
+            const closeButton = document.querySelector(".close-btn");
+
+            if (!nav.contains(event.target) && !hamburger.contains(event.target) && !closeButton.contains(event.target)) {
+                nav.classList.remove("open"); // Close menu when clicked outside
+            }
+        });
+    </script>
+</body>
+
+</html>
